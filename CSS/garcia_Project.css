@@ -1,0 +1,242 @@
+
+
+/* Home page CSS*/
+
+body {
+		background-color: skyblue;
+		display: block;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+.wrapper {
+	width: 100%; 
+}
+
+ul.horizontal-list {
+
+	display: inline;
+	
+} 
+
+ul.horizontal-list li {
+	
+	display: inline;
+	font-size: 250%;
+	font-family: rockwell;
+	
+		
+}
+	
+nav.wrapper {
+	
+	height: 100%;
+	width: 100%;
+	background-color:#666666 ;
+	padding-left: 2%;
+		
+}
+
+a.horizontalList {
+
+	text-decoration: none;
+	color:white;
+
+
+}
+	
+a {
+	text-decoration: none;
+}
+main.wrapper {
+
+	display: inline-block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+
+	text-align: left;
+
+}
+
+
+	
+h1 {
+	font-size: 250px;
+  	font-family: 'Brush Script MT', cursive;
+ 	margin: 0;
+    text-align: center;
+}
+
+
+p {
+	font-family: arial; 
+	font-size: 30px; 
+ 	font-family: 'Courier New', monospace;
+ 	color: green;
+ 	background-color: black;
+	padding-right: 30%;
+	text-align: center; 
+
+	
+}
+
+
+.leftSide {
+
+	float:left;
+	width:30%;
+	padding-top: 5%;
+	
+	
+}
+
+.rightSide{
+	float:left;
+	width: 50%;
+	
+}
+
+
+img#profilePic {
+	border-radius: 50%;
+	height: 350px;
+	width: 310px;
+	padding-left: 35%;
+	
+	
+}
+
+
+h2 {
+	font-size: 40px;
+	padding: 0;
+	padding-left: 5%;
+	color: white;
+	font-family: Bodoni MT;
+}
+
+img#ig{
+
+	width: 3%;
+	height: 6%;
+}
+
+p#socials {
+	
+	margin: 0;
+	padding: 0;
+	padding-left: 10%;
+	padding-bottom: 3%;
+	width: 100%;
+	text-align: left;
+
+	background-color:#666666 ;
+
+}
+
+div#mainContent:after {
+	content: "";
+	display: table;
+	clear: both;
+
+}
+
+
+footer {
+	background-color: #666666;
+	height: auto;
+	margin: auto;
+	width: 100%;
+	
+}
+
+/* end of home page CSS */
+
+
+/* background page starts here ***********************************/
+
+p#moving {
+				
+	display:block;
+	font-size: 200px;
+	width: 90%;
+	margin-top: 5%;
+	margin-bottom: 0%;
+}
+
+p#note{
+	display:block;
+	font-size: 50px;
+	width: 90%;
+}
+
+table {
+
+	width: 85%;
+	padding-left: 5%;
+	border-collapse: separate;
+	border-spacing: 0 10px;
+	margin: 0;
+
+
+}
+
+td {
+
+	font-size: 25px;
+	padding-left: 5%;
+	height: 200px;
+	width: 50%;
+}
+
+img#games {
+
+	width: 90%;
+	height: 100%;
+}
+
+.darkerBlue{
+	background-color: #0099ff;
+}
+
+#hob {
+	padding: 0;
+	margin: 0;
+	font-size: 150px;
+	color: #bfff80;
+	background-color: #9595ea;
+
+}
+
+/* background page ends here ***********************************/
+
+
+/* experience page starts here *****************************/
+
+img#grad {
+
+	width: 85%;
+	height: 100%;
+}
+
+table.expPage {
+
+	width: 85%;
+	padding-left: 5%;
+	border-collapse: separate;
+	border-spacing: 0 10px;
+	margin: 0;
+	
+
+}
+
+td.expPage {
+
+	font-size: 30px;
+	padding-left: 5%;
+	height: 300px;
+	width: 50%;
+	
+}

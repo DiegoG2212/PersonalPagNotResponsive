@@ -14,9 +14,16 @@ body {
 	width: 100%; 
 }
 
+
+ul#homePage {
+	list-style-type: none;
+}
+
+
 ul.horizontal-list {
 
 	display: inline;
+	padding-left: 1%;
 	border-radius: 10px;	
 	
 } 
@@ -24,11 +31,12 @@ ul.horizontal-list {
 ul.horizontal-list li {
 	
 	display: inline;
-	font-size: 250%;
+	font-size: 55px;
 	font-family: rockwell;
 	background-color:#006699;
 	padding-left: 3%;
 	padding-right: 3%;
+	
 	
 		
 }
@@ -41,13 +49,13 @@ li#lastItem {
 	border-radius: 0 10px 10px 0;
 }
 
-	
+
+
 nav.wrapper {
 	
-	height: 100%;
-	width: 100%;
-	
-	padding-left: 2%;
+	width: 1850px;
+	height: 65px;
+	margin: 0 auto;
 		
 }
 
@@ -65,8 +73,11 @@ a {
 main.wrapper {
 
 	display: inline-block;
-	width: 100%;
-	margin: 0;
+	width: 1850px;
+	height: 800px;
+	box-shadow: 5px 5px 5px #828282;
+	background-color: crimson;
+	margin-left: 25px;
 	padding: 0;
 
 	text-align: left;
@@ -94,23 +105,6 @@ p {
 
 	
 }
-
-
-.leftSide {
-
-	float:left;
-	width:30%;
-	padding-top: 5%;
-	
-	
-}
-
-.rightSide{
-	float:left;
-	width: 50%;
-	
-}
-
 
 img#profilePic {
 	border-radius: 50%;
@@ -146,13 +140,6 @@ p#socials {
 	text-align: left;
 
 	background-color:#666666 ;
-
-}
-
-div#mainContent:after {
-	content: "";
-	display: table;
-	clear: both;
 
 }
 

@@ -39,6 +39,7 @@ ul.horizontal-list {
 	padding-left: 1%;
 	border-radius: 10px;
 	align-self:center;
+	height: 70px;
 		
 	
 	
@@ -47,10 +48,10 @@ ul.horizontal-list {
 ul.horizontal-list li {
 	
 	display: inline;
-	font-size: 59px;
+	font-size: 50px;
 	font-family: rockwell;
 	background-color:#004466;
-	
+	height: 70px;
 	padding-left: 3%;
 	padding-right: 3%;
 	
@@ -114,7 +115,7 @@ h1 {
 }
 
 
-p {
+p.techie {
 	font-family: arial; 
 	font-size: 30px; 
  	font-family: 'Courier New', monospace;
@@ -175,36 +176,90 @@ footer {
 	
 }
 
+
+/* Animations starts here */
+
+i.iconAnimation:hover {
+	color: gray;
+}
+
+a.animate:hover {
+	color: gray;
+}
+
+img.increaseSize:hover{
+	transform: scale(1.15);
+}
+
 /* end of home page CSS */
 
 
 /* background page starts here ***********************************/
 
+div#beginnings{
+	height: auto;
+	width: 1850px;
+	text-align: center;
+
+	
+}
+
 p#moving {
 				
-	display:block;
-	font-size: 200px;
-	width: 90%;
-	margin-top: 5%;
-	margin-bottom: 0%;
+	
+	font-size: 110px;
+	width: 80%;
+	margin-top: 10px;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	text-align: center;
+	
+	
+	
+	
 }
 
 p#note{
-	display:block;
-	font-size: 50px;
-	width: 90%;
+	
+	font-size: 30px;
+	width: 30%;
+	margin-top: 5px;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	text-align: center;
+	background-color: #ffff99;
+	font-family: Georgia, serif;
+	border: 4px solid black;
+	
+}
+
+h2.green {
+	color: blue;
+	font-size: 40px;
+	padding-left: 0;
+	margin: 0;
 }
 
 table {
 
-	width: 85%;
+	width: 70%;
 	padding-left: 5%;
-	border-collapse: separate;
+	border-collapse:collapse;
 	border-spacing: 0 10px;
 	margin: 0;
-
-
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	border: 4px solid black;
+	
 }
+
+
 
 td {
 
@@ -212,37 +267,40 @@ td {
 	padding-left: 5%;
 	height: 200px;
 	width: 50%;
+	align-content: center;
+	border: 4px solid black;
+	text-align: justify;
+	background-color: #ffff99;
+	padding-left: auto;
+	padding-right: 20px;
+	font-family: Georgia, serif;
+	
 }
 
-img#games {
+img#grad {
 
-	width: 90%;
-	height: 100%;
+	width: 500px;
+	height: 220px;
+	margin-top: 10px;
+	margin-bottom: 8px;
+	margin-left: 10px;
+	margin-right: auto;
+	padding: 0;
 }
+
+
 
 .darkerBlue{
 	background-color: #0099ff;
 }
 
-#hob {
-	padding: 0;
-	margin: 0;
-	font-size: 150px;
-	color: #bfff80;
-	background-color: #9595ea;
-
-}
 
 /* background page ends here ***********************************/
 
 
 /* experience page starts here *****************************/
 
-img#grad {
 
-	width: 85%;
-	height: 100%;
-}
 
 table.expPage {
 

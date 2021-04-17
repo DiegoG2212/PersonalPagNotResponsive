@@ -27,6 +27,8 @@
 		<link rel="stylesheet" type="text/css" href="CSS/garcia_Project.css">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
+
 		
 
 	</head>
@@ -40,11 +42,11 @@
 					
 				<ul class ="horizontal-list" > 
 						
-					<li id = "firstItem"> <strong> <a class = "horizontalList animate" href="garcia_index.html">Home</a> </strong> </li>  
+					<li class = "firstItem"> <strong> <a class = "horizontalList animate" href="garcia_index.html">Home</a> </strong> </li>  
 						
 					<li> <strong> <a class = "horizontalList animate" href="garcia_background.html"> Background </a>  </strong> </li>
 					
-					<li  id = "lastItem"> <b> <a class = "horizontalList animate" href="garcia_experience.html"> Projects</a>   </b>  </li> 
+					<li  class = "lastItem"> <b> <a class = "horizontalList animate" href="garcia_experience.html"> Projects</a>   </b>  </li> 
 							
 				</ul>
 	
@@ -61,14 +63,32 @@
 
 				<ul id="homePage" >
 	
-					<li >	<img id = "profilePic" class="increaseSize"  src="photos/profPic.jpg" alt = "Me on a suit"> </li>
-				
+					<li > </i>	<img id = "profilePic" class="increaseSize"  src="photos/profPic.jpg" alt = "Me on a suit"> </li>
+					<li >
+
+						<ul class = "center">
+							<li class = "firstItem"> <i class="devicon-python-plain-wordmark"></i> </li>
+							<li> <i class="devicon-amazonwebservices-plain-wordmark"></i> </li>
+							<li> <i class="devicon-html5-plain-wordmark"></i> </li>
+							<li> <i class="devicon-css3-plain-wordmark"></i> </li>
+							<li> <i class="devicon-java-plain-wordmark"></i> </li>
+							<li> <i class="devicon-cplusplus-line-wordmark"></i> </li>
+							<li class = "lastItem"> <i class="devicon-c-line-wordmark"></i> </li>
+								
+						</ul>
+
+					</li>
 					<li>	<h1> Diego Garcia </h1> </li>
 				
 				</ul>		
 			</div>
-			<p class="techie"> welcome to my world </p>
-		
+			
+			<div id="resumeButton">
+
+				<button type="button" onclick="window.open('https://drive.google.com/file/d/1EOnn_iNVympOiJNHa_z4FIogiZTnP6gv/view?usp=sharing', '_blank')"><strong>Resume</strong> </button>
+
+			</div>
+
 		</main>
 
 		<footer >

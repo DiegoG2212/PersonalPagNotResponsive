@@ -27,9 +27,9 @@ ul#homePage {
 ul#homePage li{
 	width: 100%;
 	height: 100%;
-	
+	text-align: center;
 	align-content: center;
-	
+	margin-top: 15px;
 }
 
 
@@ -60,11 +60,11 @@ ul.horizontal-list li {
 		
 }
 
-li#firstItem {
+li.firstItem {
 	border-radius: 10px 0 0 10px;
 }
 
-li#lastItem {
+li.lastItem {
 	border-radius: 0 10px 10px 0;
 }
 
@@ -83,7 +83,7 @@ nav.wrapper {
 a.horizontalList {
 
 	text-decoration: none;
-	color:white;
+	color:black;
 
 
 }
@@ -106,31 +106,61 @@ main.wrapper {
 }
 
 
+
+ul.center{
+
+	width: 100%;
+	display: inline;
+	font-size: 70px;
+	
+	
+}
+
+
+ul.center li {
+	
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#004466;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
 	
 h1 {
-	font-size: 250px;
+	font-size: 200px;
   	font-family: 'Brush Script MT', cursive;
  	margin: 0;
     text-align: center;
 }
 
 
-p.techie {
-	font-family: arial; 
-	font-size: 30px; 
- 	font-family: 'Courier New', monospace;
- 	color: green;
- 	background-color: black;
-	padding-right: 30%;
-	text-align: center; 
-
-	
+div#resumeButton {
+	width: 100%;
+	text-align: center;
 }
+
+button{
+	margin: 0 auto 0 auto;
+	height: 70px;
+	width: 150px;
+	font-size: 50px;
+	border-radius: 8px;
+	border: 2px solid #50cef8;
+	background-color: #1466ff;
+	font-family: 'Brush Script MT', cursive;
+	text-decoration: none;
+}
+
 
 img#profilePic {
 	border-radius: 50%;
-	height: 350px;
-	width: 310px;
+	height: 300px;
+	width: 260px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -145,7 +175,7 @@ h2 {
 	font-size: 40px;
 	padding: 0;
 	padding-left: 5%;
-	color: darkgray;
+	color: black;
 	font-family: Tahoma;
 	margin-bottom: 0;
 	margin-top: 0;
@@ -165,6 +195,12 @@ i{
 	align-content: center;
 }
 
+.devicon-python-plain-wordmark {
+	text-shadow:2px 2px 4px #000000;
+	color: white;
+	height: 50px;
+	width: 50px;
+}
 
 
 footer {
@@ -188,8 +224,27 @@ a.animate:hover {
 }
 
 img.increaseSize:hover{
-	transform: scale(1.15);
+	transform: scale(1.10);
 }
+
+/* start of section taken from w3schools  */ 
+
+button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19); /* right side of the shado in the button,  bottom side of the shadow of the button */
+}
+
+button:active { /* so the botton gives the pressed animation */
+	box-shadow: 0 5px #666;
+  	transform: translateY(4px);
+}
+
+/* end of section taken from w3school website */
+
+button:focus {
+	outline: none;
+}
+
+
 
 /* end of home page CSS */
 

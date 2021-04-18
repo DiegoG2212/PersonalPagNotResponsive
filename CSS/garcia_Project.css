@@ -38,7 +38,7 @@ ul.horizontal-list {
 	display: inline;
 	padding-left: 1%;
 	border-radius: 10px;
-	align-self:center;
+	
 	height: 70px;
 		
 	
@@ -187,12 +187,27 @@ ul#linksToProjects{
 	height: 75px;
 	padding-bottom: 50px;
 	padding-left: 150px;
+	vertical-align: middle;
+	
+}
+
+
+ul#linksToProjects li {
+	margin: auto;
+	
 }
 
 i{
 	text-shadow:2px 2px 4px #000000;
 	color: white;
-	align-content: center;
+	font-size: 60px;
+	
+	
+}
+
+i.footerAlignment {
+	vertical-align: middle;
+	padding-bottom: 15px;
 }
 
 .devicon-python-plain-wordmark {
@@ -211,13 +226,16 @@ footer {
 	box-shadow: 5px 5px 5px #828282;
 	margin-top: 0;
 	
+	
 }
+
+
 
 
 /* Animations starts here */
 
 i.iconAnimation:hover {
-	color: gray;
+	color: red;
 }
 
 i.purple:hover {
@@ -341,7 +359,7 @@ table {
 
 td {
 
-	font-size: 25px;
+	font-size: 21px;
 	padding-left: 5%;
 	height: 200px;
 	width: 50%;
@@ -352,6 +370,7 @@ td {
 	padding-left: auto;
 	padding-right: 20px;
 	font-family: Georgia, serif;
+	
 	
 }
 

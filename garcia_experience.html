@@ -25,6 +25,8 @@
 		<title> Personal Website </title>
 
 		<link rel="stylesheet" type="text/css" href="CSS/garcia_Project.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	</head>
 
@@ -32,67 +34,64 @@
 
 		<header>
 
+					
 			<nav class="wrapper">
 					
 				<ul class ="horizontal-list" > 
 						
-					<li id = "firstItem"> <strong> <a class = "horizontalList animate" href="garcia_index.html">Home</a> </strong> </li>  
+					<li class = "firstItem"> <strong> <a class = "horizontalList animate" href="garcia_index.html">Home</a> </strong> </li>  
 						
 					<li> <strong> <a class = "horizontalList animate" href="garcia_background.html"> Background </a>  </strong> </li>
 					
-					<li  id = "lastItem"> <b> <a class = "horizontalList animate" href="garcia_experience.html"> Projects</a>   </b>  </li> 
+					<li  class = "lastItem"> <b> <a class = "horizontalList animate" href="garcia_experience.html"> Projects</a>   </b>  </li> 
 							
 				</ul>
 	
 	
 			</nav>
-
+	
 
 		</header>
 
 		<main class="wrapper">
 
-			<p></p>
-			<h2 id="hob"> Education: </h2>
-			<table class = "expPage">
-				<tr class = "expPage">
-					<td class = "expPage"> I obtained My B.S. in computer Science from California State University, Long Beach in December of 2019 </td>
-					<td class = "expPage"> <img id = "grad" src = "photos/grad.jpg" alt = "me thrwoing grad hat to the sky"> </td>
+			<div class="row">
 
-				</tr>
+				<div class= "WrapColumn"> 	
+					<div class= "column left">
 
-				<tr class = "expPage">
-					
-					
-					<td class = "expPage"> <img id= "grad" src = "https://www.smc.edu/_resources/assets/img/hero-home/SMC-StudentServicesCenter.jpg"></td>
-					
-					<td class = "expPage"> Hoping to obtain my certificate as a practitioner in cloud computing from Santa Monica College by the end of this semseter </td>
-					
+						<h1 class="proj1">Bitcoin Transaction simulation</h1>
+						<a href="https://github.com/DiegoG2212/BitcoinTransaction/tree/main" target="_blank"><img class="centerImg" src="photos/bitcoin.GIF" alt="pic of my bitcoin simulation prgram running"></a>
+						<p class="description"> I did this project at the beginning of the year when I was taking python at Santa Monica College. 
+							The idea is to simulate the trasactiion to buy a bitcoin or part of a Bitcoin. The way my program 
+							simulated the bitcoin transaction is by keeping track of the bitcoin price as it changes. Every time, 
+							you make a transaction the bitcoin price changes thru a random generator that has a range of values of 
+							what the price could be. It also keeps track of the history of transactions made. I want to eventually 
+							evolve this project, so it gets the price of bitcoin live from the market. <br> <br>
+							The enterity of theis project was done in python and if you want to see the source code click the image. 
+						</p>
 
-				</tr>
-
-			</table>
-
-			<h2 id="hob"> Work Experience: </h2>
-
-			<table class="expPage">
-				<tr class="expPage">
-					
-					<td class="expPage"> 
-
-						My current job is the only experience I have which is working as an embedded tutor for the math lab at SMC. My job is to help other students succeed in the math class I was assigned as well as help any students that comes to the math lab when is really busy.  
-
-					</td>
-
-					<td class="expPage">
-						<img id ="grad" src = "https://www.smc.edu/student-support/academic-support/tutoring-centers/images/main-tutoring.jpg">
-
-					</td>
-
-				</tr>
+					</div>
+				</div>
 				
+				<div class= "WrapColumn">
+					<div class= "column right">
+						<h1 class="proj1"> Search Engine Technology </h1>
+						<a href="https://github.com/DiegoG2212/429" target="_blank"> <img id = "searchEngine" class="centerImg" src="https://sitechecker.pro/wp-content/uploads/2017/12/search-engines.png" alt="search engine picture"> </a>
+						<p class="description"> This project was a group project for our 429 class which is search engines. The project was to recreate a 
+							search engine and its functions in a test library. The parts I collaborated on was on making the test library 
+							into a bit format that way, breaking down the test library by word or every two words. I also help on making 
+							the logical search algorithms and part of the ranking search algorithms. <br> <br>
 
-			</table>
+							Sorry I did not have any picture of the program running as I do not have test library anymore. The entirety of this project was coded on Java. 
+							If you click on the image, it will take top the repository on GitHub.
+							
+						</p>
+
+					</div>
+				</div>
+			
+			</div>
 
 		</main>
 
@@ -104,8 +103,8 @@
 			<ul id = "linksToProjects" class="horizontal-list">
 						
 				<li> <a href="mailto:diego.a.garcia2212@gmail.com"> <i  class="material-icons iconAnimation" style="font-size:50px">email</i>  </a>	</li>
-				<li> <a href="www.linkedin.com/in/diego-garcia-6b8985183"> <i class="fa fa-linkedin-square iconAnimation"></i> </a> </li>
-				<li> <a href="https://github.com/DiegoG2212"> <i class="fa fa-github iconAnimation"></i> </a> </li>
+				<li> <a href="https://www.linkedin.com/in/diego-garcia-6b8985183/" target="_blank"> <i class="fa fa-linkedin-square darkBlue"></i> </a> </li>
+				<li> <a href="https://github.com/DiegoG2212" target="_blank"> <i class="fa fa-github purple"></i> </a> </li>
 
 			</ul>
 
